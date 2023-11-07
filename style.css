@@ -1,0 +1,427 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: inter;
+}
+.container{
+   margin: auto 4%;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    padding: 15px;
+    padding-bottom:20px ;
+    width: 100%;
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-right: 65%;
+}
+.nav-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.nav-links ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+    gap: 25px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+}
+.head-image img{
+    width: 122%;
+}
+.container-2{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.top {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column: 1/-5;
+    gap: 20px;
+    padding-top: 20px;
+}
+.bottom-left{
+    width: 300px;
+}
+.bottom-left h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+.bottom-text .p1 p{
+    width: 145%;
+}
+.p1 p{
+ font-size: 22px;
+ color: grey;
+}
+/* .bottom-text{
+    position: relative;
+    right: 160px;
+} */
+button{
+    margin-top: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 40px;
+    padding-left: 40px;
+    background-color: hsl(5, 85%, 63%);
+    border: 1px;
+    color: white;
+    font-weight: 100;
+}
+aside {
+    grid-column: 10/-1;
+}
+.right {
+    color: white;
+    padding: 27px;
+    width: 350px;
+    /* position: relative;
+    right: 20px; */
+    background-color: hsl(240, 100%, 5%);
+}
+.right h2{
+    font-size: 40px;
+}
+.hydro h3{
+    padding-bottom: 10px;
+}
+.hydro p{
+color: grey;
+font-size: 18px;
+}
+.down h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.down p{
+color: grey;
+font-size: 18px;
+}
+.vc h3{
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+.vc p{
+color: grey;
+font-size: 18px;
+}
+.last{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-top: 60px;
+    gap: 28%;
+    padding-bottom: 30px;
+}
+.retro img{
+    width: 150px;
+    height: 180px;
+}
+.pc img{
+    width: 150px;
+    height: 180px;
+}
+.gaming img{
+    width: 150px;
+    height: 180px;
+}
+.retro{
+    display: flex;
+    width: 170%;
+    justify-content: center;
+    align-items: center;
+    gap: 7%;
+}
+.pc{
+    display: flex;
+    width: 175%;
+    justify-content: center;
+    align-items: center;
+    gap: 7%;
+}
+.gaming{
+    display: flex;
+    width: 165%;
+    justify-content: center;
+    align-items: center;
+    gap: 7%;
+}
+.retro .p-1 p{
+    font-size: 30px;
+    color: grey;
+}
+.retro .p-2 h3{
+    font-size: 18px;
+}
+.pc .p-4 p{
+    font-size: 30px;
+    color: grey;
+}
+.gaming .p-7 p{
+    font-size: 30px;
+    color: grey;
+}
+.retro-text{
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+}
+.pc-text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.gaming-text{
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+.mobile img{
+    display: none;
+}
+.icon-menu li{
+    list-style: none;
+}
+.icon-menu img{
+    display: none;
+}
+@media screen and (max-width:375px) {
+    .head-image img{
+        width: 100%;
+        display: none;
+    }
+    .mobile img{
+        width: 117%;
+        display: flex;
+    }
+    .logo img{
+        display: flex;
+        width: 50px;
+        margin-right: 55px;
+    }
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: white;
+        padding-bottom:25px ;
+    }
+    .nav-links2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+
+    }
+    .icon-menu  li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        list-style: none;
+        text-decoration: none;
+    }
+    .icon-menu  ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .nav-links{
+        display: none;
+    }
+   .icon-menu img{
+    display: flex;
+    position: relative;
+    top: 5px;
+    left: 10px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+   }
+   /* .container-2{
+    display: grid;
+    grid-template-columns:repeat(1,1fr);
+    } */
+    .top {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-column: 1/-5;
+        /* gap: 20px; */
+        padding-top: 20px;
+    }
+    .bottom-left{
+        width: 300px;
+    }
+    .bottom-left h1{
+        font-size: 50px;
+        font-weight: 800;
+    }
+    .bottom-text .p1 p{
+        width: 118%;
+    }
+    .p1 p{
+        font-size: 19px;
+        color: grey;
+    }
+    aside {
+        margin-top: 20px;
+        grid-column: 1/-1;
+        display: grid;
+    }
+    .right {
+        color: white;
+        padding: 27px;
+        width: 360px;
+        /* position: relative;
+        right: 20px; */
+        background-color: hsl(240, 100%, 5%);
+    }
+    .last{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding-top: 40px;
+        gap: 9%;
+        padding-bottom: 50px;
+    }
+    .retro{
+        display: flex;
+        width: 125%;
+        justify-content: center;
+        align-items: center;
+        gap: 5%;
+    }
+    .pc{
+        display: flex;
+        width: 123%;
+        justify-content: center;
+        align-items: center;
+        gap: 5%;
+    }
+    .gaming{
+        display: flex;
+        width: 125%;
+        justify-content: center;
+        align-items: center;
+        gap: 5%;
+    }
+    .container{
+        margin: auto 4%;
+     }
+}
+@media screen and (max-width:800px) and (min-width:768px)  {
+    .head-image img{
+        width: 135%;
+        display: flex;
+    }
+    .mobile img{
+        width: 116%;
+        display: none;
+    }
+    aside {
+        grid-column: 10/-1;
+        display: grid;
+    }
+    .right {
+        color: white;
+        padding: 27px;
+        width: 340px;
+        position: relative;
+        right: 47px;
+        background-color: hsl(240, 100%, 5%);
+    }
+    .gaming{
+        grid-column: 1/-1;
+        position: relative;
+        right:44% ;
+    }
+    .gaming{
+        /* display: flex; */
+      
+        gap: 3%;
+    }
+    .container-2{
+        width: 197vh;
+    }
+    .logo img{
+        display: flex;
+        width: 50px;
+        margin-right: 190px;
+    }
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: white;
+        padding-bottom:25px ;
+    }
+    .nav-links2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+
+    }
+    .icon-menu  li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        list-style: none;
+        text-decoration: none;
+    }
+    .icon-menu  ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .nav-links{
+        display: none;
+    }
+   .icon-menu img{
+    display: flex;
+    position: relative;
+    top: 5px;
+    left: 360px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+   }
+   .pc{
+    position: relative;
+    left: 55%;
+   }
+   .container{
+    margin: auto 4%;
+ }
+ .bottom-text .p1 p{
+    width: 188%;
+}
+.p1 p{
+    font-size: 19px;
+    color: grey;
+}
+}
