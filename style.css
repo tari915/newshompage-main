@@ -201,13 +201,13 @@ font-size: 18px;
 .icon-menu img{
     display: none;
 }
-@media screen and (max-width:375px) {
+@media screen and (max-width:500px) and (min-width:320px) {
     .head-image img{
         width: 100%;
         display: none;
     }
     .mobile img{
-        width: 117%;
+        width: 64vh;
         display: flex;
     }
     .logo img{
@@ -221,6 +221,7 @@ font-size: 18px;
         justify-content: center;
         background-color: white;
         padding-bottom:25px ;
+        width: 55vh;
     }
     .nav-links2{
         display: flex;
@@ -252,7 +253,7 @@ font-size: 18px;
     display: flex;
     position: relative;
     top: 5px;
-    left: 10px;
+    left: 7vh;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -277,7 +278,7 @@ font-size: 18px;
         font-weight: 800;
     }
     .bottom-text .p1 p{
-        width: 118%;
+        width: 60vh;
     }
     .p1 p{
         font-size: 19px;
@@ -305,21 +306,21 @@ font-size: 18px;
     }
     .retro{
         display: flex;
-        width: 125%;
+        width: 100%;
         justify-content: center;
         align-items: center;
         gap: 5%;
     }
     .pc{
         display: flex;
-        width: 123%;
+        width: 100%;
         justify-content: center;
         align-items: center;
         gap: 5%;
     }
     .gaming{
         display: flex;
-        width: 125%;
+        width: 110%;
         justify-content: center;
         align-items: center;
         gap: 5%;
