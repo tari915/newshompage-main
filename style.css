@@ -329,7 +329,7 @@ font-size: 18px;
         margin: auto 4%;
      }
 }
-@media screen and (max-width:800px) and (min-width:768px)  {
+@media screen and (max-width:1028px) and (min-width:768px)  {
     .head-image img{
         width: 135%;
         display: flex;
@@ -371,9 +371,10 @@ font-size: 18px;
     .navbar {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-between;
         background-color: white;
         padding-bottom:25px ;
+        gap: 0;
     }
     .nav-links2{
         display: flex;
@@ -405,7 +406,7 @@ font-size: 18px;
     display: flex;
     position: relative;
     top: 5px;
-    left: 360px;
+    left: 60vh;
     flex-direction: row;
     justify-content: center;
     align-items: center;
